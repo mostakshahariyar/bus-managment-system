@@ -12,7 +12,7 @@ import navImg from "./../../assets/navlogo.png";
 const Navbar = () => {
     const [open, setOpen] = useState(false);
   return (
-    <div className="shadow-lg shadow-gray-300 w-full fixed top-0 left-0">
+    <div className="md:shadow-lg md:shadow-gray-300 relative w-full top-0 z-10 left-0">
       <nav className="bg-[#3FC495]">
         <div className="md:flex md:justify-around md:items-center">
           <Link to="/" className="w-40 h-20 flex flex-col justify-center items-center">
