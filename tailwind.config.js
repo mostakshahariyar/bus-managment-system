@@ -11,8 +11,12 @@ export default {
       lg: '976px',
       xl: '1440px',
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'footer_image' : "url('/src/assets/footer.jpg)"
+      }
   },
   plugins: [],
+}
 }
 
