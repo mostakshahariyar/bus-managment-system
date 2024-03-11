@@ -14,7 +14,7 @@ const Footer = () => {
       {/* for subscriber input form */}
       <div className="bg-cover bg-no-repeat bg-center h-[700px] text-center"  style={{backgroundImage: "url('/src/assets/footer.jpg')"}}>
         <div className="flex flex-col justify-center items-center md:w-full h-full">
-          <div className="bg-[#188a62] rounded-lg px-10 py-6 mx-7 lg:m-0 lg:px-16 lg:py-10 text-white">
+          <div className="bg-[#3fc495] rounded-lg px-10 py-6 mx-7 lg:m-0 lg:px-16 lg:py-10 text-white">
           <h1 className="md:text-5xl text-3xl font-semibold md:pb-0 pb-3 md:leading-loose">Subscribe our newsletter</h1>
           <p className="pb-3 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sapiente labore, eius est architecto eos!</p>
           <div className="md:w-11/12 sm:bg-white md:h-10 flex sm:flex-row flex-col sm:justify-center sm:items-center md:py-6 md:px-1 sm:border-2 sm:border-red-300 sm:rounded-full sm:overflow-hidden">

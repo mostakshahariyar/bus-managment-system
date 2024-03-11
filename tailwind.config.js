@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import defaultTheme from 'tailwindcss/defaultTheme';
 export default {
   content: [
     "./index.html",
@@ -14,6 +15,10 @@ export default {
     extend: {
       backgroundImage: {
         'footer_image' : "url('/src/assets/footer.jpg)"
+      },
+      fontFamily: {
+        madimi: ['"Madimi One"', ...defaultTheme.fontFamily.sans],
+        roboto: ['"Roboto"', ...defaultTheme.fontFamily.sans]
       }
   },
   plugins: [],

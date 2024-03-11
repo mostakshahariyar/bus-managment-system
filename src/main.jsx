@@ -8,6 +8,7 @@ import Bus from './component/Bus/Bus.jsx'
 import Contact from './component/Contact/Contact.jsx'
 import Event from './component/Event/Event.jsx'
 import Home from './component/Home/Home.jsx'
+import NotFound from './component/NotFound/NotFound.jsx'
 import Train from './component/Train/Train.jsx'
 import './index.css'
 const router = createBrowserRouter([
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact/>
+      },
+      {
+        path: "*",
+        element: <NotFound/>
       }
     ]
   }
