@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <div className="flex flex-col w-full h-full"> 
       {/* for subscriber input form */}
-      <div className="bg-cover bg-no-repeat bg-center h-[700px] text-center"  style={{backgroundImage: "url('/src/assets/footer.jpg')"}}>
+      <div className="bg-cover bg-no-repeat bg-center h-[700px] text-center"  style={{backgroundImage: "url('https://i.ibb.co/R4GY4rb/footer.jpg')"}}>
         <div className="flex flex-col justify-center items-center md:w-full h-full">
           <div className="bg-[#3fc495] rounded-lg px-10 py-6 mx-7 lg:m-0 lg:px-16 lg:py-10 text-white">
           <h1 className="md:text-5xl text-3xl font-semibold md:pb-0 pb-3 md:leading-loose">Subscribe our newsletter</h1>
