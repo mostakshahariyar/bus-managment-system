@@ -1,7 +1,7 @@
 
 function Bus() {
   return (
-    <div>Bus</div>
+    <div className="mt-20">Bus</div>
   )
 }
 

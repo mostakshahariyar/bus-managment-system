@@ -67,7 +67,7 @@ const Home = () => {
     { loadingImage: "https://i.ibb.co/mHmvW3Y/Khaja-Travels-208x78.png" },
   ];
   return (
-    <div className="pb-10 bg-[#eaf9e7]">
+    <div className="pb-10 mt-20 bg-[#eaf9e7]">
       <Carousel
         className="md:mx-28 mx-[5%] pt-8 relative z-0 flex flex-col justify-center mb-8 items-center"
         autoPlay="1000"

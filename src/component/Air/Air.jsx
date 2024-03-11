@@ -1,6 +1,6 @@
 function Air() {
   return (
-    <div>Air</div>
+    <div className="mt-20">Air</div>
   )
 }
 

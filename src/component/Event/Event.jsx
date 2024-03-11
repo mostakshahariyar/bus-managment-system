@@ -1,6 +1,6 @@
 function Event() {
   return (
-    <div>Event</div>
+    <div className="mt-20">Event</div>
   )
 }
 

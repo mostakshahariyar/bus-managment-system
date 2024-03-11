@@ -1,6 +1,6 @@
 function Train() {
   return (
-    <div>Train</div>
+    <div className="mt-20">Train</div>
   )
 }
 
