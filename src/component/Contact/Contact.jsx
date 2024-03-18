@@ -67,25 +67,45 @@ function Contact() {
           loading="lazy"
         ></iframe>
       </div>
-        <form
-          onClick={handelFrom}
-          className="flex flex-col items-center gap-5 justify-center my-20"
-        >
-          <div className="lg:w-2/4 w-3/4 flex lg:flex-row flex-col items-center justify-center gap-5">
-            <input type="text"  className="lg:w-1/2 w-full py-2 ps-5" required placeholder="Your Name*" />
-            <input type="email" className="lg:w-1/2 w-full py-2 ps-5" required placeholder="Your Email*" />
-          </div>
+      <form
+        onClick={handelFrom}
+        className="flex flex-col items-center gap-5 justify-center my-20"
+      >
+        <div className="lg:w-2/4 w-3/4 flex lg:flex-row flex-col items-center justify-center gap-5">
           <input
             type="text"
-            className="lg:w-2/4 w-3/4 py-2 ps-5"
+            className="lg:w-1/2 w-full py-2 ps-5"
             required
-            placeholder="Subject or topic*"
+            placeholder="Your Name*"
           />
-          <textarea  type="text" className="lg:w-2/4 w-3/4 pt-2 ps-5 h-40" required placeholder="Message*" />
-          <div className="w-2/4">
-          <button type="submit" className="bg-[#3fc495] text-white font-roboto font-semibold px-4 py-2 text-left ">Submit</button>
-          </div>
-        </form>
+          <input
+            type="email"
+            className="lg:w-1/2 w-full py-2 ps-5"
+            required
+            placeholder="Your Email*"
+          />
+        </div>
+        <input
+          type="text"
+          className="lg:w-2/4 w-3/4 py-2 ps-5"
+          required
+          placeholder="Subject or topic*"
+        />
+        <textarea
+          type="text"
+          className="lg:w-2/4 w-3/4 pt-2 ps-5 h-40"
+          required
+          placeholder="Message*"
+        />
+        <div className="w-2/4">
+          <button
+            type="submit"
+            className="bg-[#3fc495] text-white font-roboto font-semibold px-4 py-2 text-left "
+          >
+            Submit
+          </button>
+        </div>
+      </form>
     </div>
   );
 }
